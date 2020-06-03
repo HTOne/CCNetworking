@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1667FA8CA6C8BF3BFC5B164 /* Pods-CCNetworkingg_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNetworkingg_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CCNetworkingg_Tests/Pods-CCNetworkingg_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6EB2A2BCC81D395F1BF2EFF /* Pods-CCNetworkingg_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNetworkingg_Example.debug.xcconfig"; path = "Target Support Files/Pods-CCNetworkingg_Example/Pods-CCNetworkingg_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B9E853CB6EFC496D9B6C35ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C0D2EAF73740A1FF0920EA2A /* CCNetworkingg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCNetworkingg.podspec; path = ../CCNetworkingg.podspec; sourceTree = "<group>"; };
-		DBC07F0E2E4D0F198B206380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9E853CB6EFC496D9B6C35ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0D2EAF73740A1FF0920EA2A /* CCNetworkingg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCNetworkingg.podspec; path = ../CCNetworkingg.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBC07F0E2E4D0F198B206380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB0858F021CB3C320AD4FA29 /* Pods_CCNetworkingg_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCNetworkingg_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				A1667FA8CA6C8BF3BFC5B164 /* Pods-CCNetworkingg_Tests.debug.xcconfig */,
 				07D94F219D8F77A62276BC99 /* Pods-CCNetworkingg_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

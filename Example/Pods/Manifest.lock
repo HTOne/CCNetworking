@@ -1,0 +1,27 @@
+PODS:
+  - CCNetworkingg (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CCNetworkingg (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CCNetworkingg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCNetworkingg: 1f7c9fd512ce3d51212fb17675811e29d3f19513
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 65e3588a47352f7a0bd594efcf6b98600f2f4712
+
+COCOAPODS: 1.8.1

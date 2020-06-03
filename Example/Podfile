@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CCNetworkingg_Example' do
+  pod 'CCNetworkingg', :path => '../'
+
+  target 'CCNetworkingg_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

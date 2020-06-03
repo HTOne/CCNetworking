@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'CCNetworkingg_Example' do
   pod 'CCNetworkingg', :path => '../'
+  pod 'AFNetworking', '~> 3.0'
 
   target 'CCNetworkingg_Tests' do
     inherit! :search_paths
